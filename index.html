@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Carrinho de Compras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Loja Online</h1>
+    <nav>
+      <a href="#">Catálogo</a>
+      <a href="#">Carrinho</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalog">
+      <h2>Catálogo de Produtos</h2>
+      <div class="product-list" id="product-list">
+        <!-- Produtos serão carregados aqui -->
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>Carrinho de Compras</h2>
+      <div class="cart-items" id="cart-items">
+        <!-- Itens do carrinho serão carregados aqui -->
+      </div>
+      <div class="cart-summary">
+        <p>Total: <span id="cart-total">$0.00</span></p>
+        <button id="checkout-button">Finalizar Compra</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Loja Online. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
